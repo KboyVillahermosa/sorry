@@ -19,15 +19,17 @@
         margin-top: 100px;
         justify-content: center;
         display: flex;
+        padding: 20px;
       }
       .header {
         justify-content: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
-        height: 50vh;
+        margin-top: 100px;
+        padding: 20px;
       }
+
       .header-content {
         width: 100%;
         max-width: 400px;
@@ -35,6 +37,12 @@
       .header-content img {
         width: 100%;
         max-width: 300px;
+      }
+      @media screen and (max-width: 600px){
+        .header-content img{
+          width: 100%;
+        }
+        
       }
       .drawer-body {
         justify-content: center;
